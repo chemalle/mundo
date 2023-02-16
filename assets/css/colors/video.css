@@ -1,0 +1,40 @@
+/* Dark preset */
+body{
+	color: #ffffff;
+}
+div#header {
+	background-color: #000000;
+}
+
+}
+#bg-video {
+	background-video: url(https://youtu.be/Ba01EM-7KOM);
+}
+fieldset,
+div.section.newsletter input {
+	border-color: #ffffff;
+	color:#ffffff;
+}
+div.section.newsletter input.submit,
+div.section.writeus > .toggle-button {
+	background-color: #ffffff;
+	color:#000000;
+}
+#contact_form .wrap .submit {
+	background-color: #000000;
+	color:#ffffff;
+}
+#widgets.opened > span.close {
+	background: url(../../img/close-widgets-white.png) no-repeat;
+}
+
+@media only screen {
+	#widgets {
+		background-color: inherit;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#widgets {
+		background-color: #000000;
+	}
+}
